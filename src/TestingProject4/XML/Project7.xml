@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="ProjectSeven">
+        <parameter name="URL" value="https://demo.nopcommerce.com/"></parameter>
+        <parameter name="Search" value="Adobe Photoshop CS4"></parameter>
+        <classes>
+            <class name="TestingProject4.Homework.Project7"></class>
+        </classes>
+    </test>
+</suite>

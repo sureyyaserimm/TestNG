@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="ProjectThree">
+        <parameter name="URL" value="https://demo.nopcommerce.com/register?returnUrl=%2F%22%3E"></parameter>
+        <classes>
+            <class name="TestingProject4.Homework.Project3"></class>
+        </classes>
+    </test>
+</suite>
